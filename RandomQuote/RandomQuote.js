@@ -40,7 +40,6 @@ function getQuote(){
 			var color = Math.floor(Math.random() * colors.length);
 			
 			$("html body").animate({backgroundColor: colors[color], color: colors[color]}, 1000);
-			
 			$(".button").animate({backgroundColor: colors[color]}, 1000);
 		}
 	});
@@ -48,7 +47,7 @@ function getQuote(){
 
 $(document).ready(function(){
 	var myVar = setInterval(getQuote, 10000);
-	$("new-quote").on("click", getQuote);
+	$("#new-quote").on("click", getQuote);
 	$("#twitter").on("click", function(){
 		openURL('https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + 
         encodeURIComponent('"' + currentQuote + '" ' + currentAuthor));
