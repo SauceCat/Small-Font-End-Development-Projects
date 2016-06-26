@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Weather</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css">
+		<link rel="stylesheet" type="text/css" href="weather.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="weather.js"></script>
+	</head>
+	
+	<body>
+		<div class="title">
+			Free C<i class="wi wi-hail"></i>de Camp
+			<br>
+			Weather App
+		</div>
+		
+		<div class="weather">
+			<p id="location"></p>
+			<p id="des"></p>
+			<span id="temp">  &#176; </span><span id="transfer">C</span>
+		</div>
+		
+		<div class="text-center all-icon">
+          <div class="icon sun-shower hide">
+            <div class="cloud"></div>
+            <div class="sun">
+              <div class="rays"></div>
+            </div>
+            <div class="rain"></div>
+          </div>
+          <div class="icon thunder-storm hide thunderstorm">
+            <div class="cloud"></div>
+            <div class="lightning">
+              <div class="bolt"></div>
+              <div class="bolt"></div>
+            </div>
+          </div>
+          <div class="icon cloudy hide clouds">
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+          </div>
+          <div class="icon flurries hide snow">
+            <div class="cloud"></div>
+            <div class="snow">
+              <div class="flake"></div>
+              <div class="flake"></div>
+            </div>
+          </div>
+          <div class="icon sunny hide clear">
+            <div class="sun">
+              <div class="rays"></div>
+            </div>
+          </div>
+          <div class="icon rainy hide rain">
+            <div class="cloud"></div>
+            <div class="rain"></div>
+          </div>
+        </div>	
+        		
+		<div class="footer">
+			<p>By SauceCat</p>
+		</div>
+	</body>
+</html>
