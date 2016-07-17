@@ -36,7 +36,7 @@ function search(){
 		dataType: "jsonp",
 		type: "POST",
 		headers: {
-			"Api-User-Agent': 'Example/1.0"
+			"Api-User-Agent": "Example/1.0"
 		},
 		success: function(data) {
 			// first clean the previous results
@@ -50,11 +50,11 @@ function search(){
 			// for each result, generate the html data and append to div
 			for (var result in resArr) {
 				arrResults.push(new Result(resArr[result].title, resArr[result].snippet));
-				html = '<div class="mywell"><a href="https://en.wikipedia.org/wiki/' + resArr[result].title + 
-				'"target="_blank"><h4>' + resArr[result].title + '</h4><p>' + resArr[result].snippet + '</p></a></div>';
+				html = "<div class='mywell'><a href='https://en.wikipedia.org/wiki/" + resArr[result].title + 
+				"' target='_blank'><h4>" + resArr[result].title + "</h4><p>" + resArr[result].snippet + "</p></a></div>";
 
 				// displays the elements to the page
-				$('#results').append(html);
+				$("#results").append(html);
 			}
 		}
 	});
