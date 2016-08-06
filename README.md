@@ -11,3 +11,7 @@ Font end development projects from FreeCodeCamp.
 <br>
 #### Project Three: [Wikipedia Viewer](http://codepen.io/SauceCat/pen/pbPNVP)
 <img src="https://github.com/SauceCat/Small-Font-End-Development-Projects/blob/master/wikipedia/show.png" width="80%"/>
+
+<br>
+#### Project Four: [Use the Twitch.tv JSON API](https://codepen.io/SauceCat/pen/AXJYvd)
+<img src="https://github.com/SauceCat/Small-Font-End-Development-Projects/blob/master/twitch/show.png" width="80%"/>
