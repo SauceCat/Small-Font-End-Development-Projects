@@ -15,3 +15,7 @@ Font end development projects from FreeCodeCamp.
 <br>
 #### Project Four: [Use the Twitch.tv JSON API](https://codepen.io/SauceCat/pen/AXJYvd)
 <img src="https://github.com/SauceCat/Small-Font-End-Development-Projects/blob/master/twitch/show.png" width="50%"/>
+
+<br>
+#### Project Five: [Javascript calculator](https://codepen.io/SauceCat/full/qNQAPG)
+<img src="https://github.com/SauceCat/Small-Font-End-Development-Projects/blob/master/JS_calculator/show.png" width="50%"/>
