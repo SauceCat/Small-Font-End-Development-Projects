@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>JavaScript Calculator</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="calculator.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="calculator.js"></script>
+	</head>
+	
+	<body>
+		<div class='container-fluid'>
+			<div id='cal_body'>
+				<div id='cal_header'>
+					<p>ELECTRONIC CALCULATOR</p>
+    			</div>
+    			
+    			<div id='cal_show'>
+					<p id='cal_result'>0</p>
+					<p id='cal_process'>0</p>
+    			</div>
+    			
+    			<div id='cal_input'>
+	    			<button value='AC' class='red'>AC</button>
+					<button value='CE' class='red'>CE</button>
+					<button value='/'>&divide;</button>
+					<button value='*' class='right'>x</button>
+			      
+					<button id='test' value='7'>7</button>
+					<button value='8'>8</button>
+					<button value='9'>9</button>
+					<button value='-'>-</button>
+			      
+					<button value='4'>4</button>
+					<button value='5'>5</button>
+					<button value='6'>6</button>
+					<button value='+'>+</button>
+			  
+					<button value='1'>1</button>
+					<button value='2'>2</button>
+					<button value='3'>3</button>
+					<button value='=' id='equal'>=</button>
+			      
+					<button value='0' id='zero'>0</button>
+					<button value='.'>.</button>
+				</div>
+			</div>
+			
+			<div id='footer'>
+				JavaScript Calculator by <span id='name'>SauceCat</span>
+			</div>
+		</div>
+	</body>
+</html>

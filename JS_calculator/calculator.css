@@ -1,0 +1,96 @@
+body {
+  background-color: #333;
+  font-family: 'Orbitron';
+}
+
+#cal_body {
+  margin: 100px auto 50px;
+  width: 288px;
+  padding: 15px 20px;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 7px 10px 34px 1px black,
+  inset -1px -6px 12px 0.1px black;
+}
+
+#cal_header {
+  text-align: center;
+  margin: -10px 0px 10px;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+#cal_show {
+  background-color: #b2b2b2;
+  padding: 10px;
+  text-align: right;
+  margin: 10px;
+  border: solid 2px #999;
+  border-radius: 10px;
+}
+
+#cal_result {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: -5px;
+  color: #333;
+}
+
+#cal_process {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #666;
+}
+
+#cal_input {
+  display: inline-block;
+  width: 270px;
+  padding: 5px;
+  margin: 0px 10px;
+}
+
+button {
+  width: 55px;
+  height: 50px;
+  border-radius: 8px;
+  margin: 0px 9px 10px 0px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: white;
+  background-color: #3a3a3a;
+  box-shadow: 0px 3px 0px 0px #222121;
+  font-family: 'Orbitron';
+}
+
+button:active {
+  -webkit-transform: translate(0px, 3px);
+  box-shadow: none;
+}
+
+.red {
+  background-color: #a72d45;
+  box-shadow: 0px 3px 0px 0px #671c2a;
+}
+
+#equal {
+  position: absolute;
+  height: 110px;
+}
+
+#zero {
+  width: 123px;
+}
+
+#footer {
+  color: white;
+  text-align: center;
+  font-family: helvetica;
+  margin-bottom: 100px;
+  font-weight: lighter;
+}
+
+#name {
+  color: #a72d45;
+}
