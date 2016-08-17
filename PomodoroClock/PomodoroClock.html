@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>PomodoroClock</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="PomodoroClock.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="PomodoroClock.js"></script>
+	</head>
+	
+	<body>
+		<div class='container-fluid'>
+			<div id='header'>
+		    	Pomodoro Clock
+			</div>
+  
+			<div id='time_header'>
+				<div class='time_info col-sm-6' id='break_len'>
+					BREAK LENGTH<br>
+					<button id='break_minus' class='opers'>-</button>
+					<span id='break' class='number'>5</span>
+					<button id='break_plus' class='opers'>+</button>
+    			</div>
+    
+				<div class='time_info col-sm-6' id='session_len'>
+					SESSION LENGTH<br>
+					<button id='sess_minus' class='opers'>-</button>
+					<span id='session' class='number'>25</span>
+					<button id='sess_plus' class='opers'>+</button>
+    			</div>
+  			</div>
+  
+  			<div id='timer'>
+  				<div id='timer_bg'>
+	  				<span id='timer_header'>Session</span>
+	  				<br>
+	  				<span id='time'>25</span>
+    			</div>
+  			</div>
+		</div>
+	</body>
+</html>
