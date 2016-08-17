@@ -19,3 +19,7 @@ Font end development projects from FreeCodeCamp.
 <br>
 #### Project Five: [Javascript calculator](https://codepen.io/SauceCat/full/qNQAPG)
 <img src="https://github.com/SauceCat/Small-Font-End-Development-Projects/blob/master/JS_calculator/show.png" width="50%"/>
+
+<br>
+#### Project Six: [Pomodoro Clock](https://codepen.io/SauceCat/full/QEYEVL/)
+<img src="https://github.com/SauceCat/Small-Font-End-Development-Projects/blob/master/PomodoroClock/show.png" width="50%"/>
