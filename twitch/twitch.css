@@ -1,0 +1,102 @@
+body {
+  margin: 100px 300px;
+}
+
+#header {
+  color: #fff;
+  background-color: black;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+#selector {
+  list-style: none;
+}
+
+#selector li {
+  float: right;
+  clear: right;
+  margin: 3px 0px;
+  cursor: pointer;
+}
+
+#selector p {
+  margin: 0;
+  float: right;
+  font-size: 15px;
+  padding: 0px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  float: left;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px 5px 5px 0px;
+}
+
+#all .circle {
+  background-color: #fff;
+}
+
+#on .circle {
+  background-color: #59d97a;
+}
+
+#off .circle {
+  background-color: #e17169;
+}
+
+.items {
+  margin: 10px 20px;
+  padding: 30px;
+  border-bottom: solid 1px grey;
+}
+
+#name{
+  padding: 15px 0;
+}
+
+#des {
+  padding: 15px 0 0 0;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #555;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 60px;
+}
+
+#content {
+  margin-top: 100px;
+}
+
+.inactive p{
+  display: none;
+}
+
+.active {
+  width: 60px;
+  transition: width 1s linear;
+}
+
+.hidden {
+  display: none;
+}
+
+.online img {
+  border: solid 5px #59d97a;
+}
+
+.offline img {
+  border: solid 5px #e17169;
+}
