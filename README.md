@@ -23,3 +23,7 @@ Font end development projects from FreeCodeCamp.
 <br>
 #### Project Six: [Pomodoro Clock](https://codepen.io/SauceCat/full/QEYEVL/)
 <img src="https://github.com/SauceCat/Small-Font-End-Development-Projects/blob/master/PomodoroClock/show.png" width="50%"/>
+
+<br>
+#### Project Seven: [Tic Tac Toe](http://codepen.io/SauceCat/pen/NROJNg/)
+<img src="https://github.com/SauceCat/Small-Font-End-Development-Projects/blob/master/tic-tac-toe/show.png" width="50%"/>
