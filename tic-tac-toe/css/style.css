@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+}
+
+#gameScore {
+  margin: 100px auto;
+  width: 450px;
+}
+
+#gameScore div {
+  margin-top: -25px;
+  color: lightblue;
+}
+
+#gameScore span {
+  color: pink;
+}
+
+.gameFrame {
+  margin: 50px auto;
+  border: 2px solid lightblue;
+  border-radius: 30px;
+  width: 450px;
+  height: 450px;
+  padding: 30px;
+}
+
+table {
+  margin-top: -3px;
+}
+
+td {
+  border: 2px solid lightblue;
+  height: 130px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 130px;
+  background-color: #eee;
+  color: #777;
+}
+
+.gameTitle {
+  font-size: 25px;
+}
+
+.gameContent {
+  color: pink;
+}
+
+.gameHead {
+  height: 300px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+.gameButtons {
+  height: 150px;
+}
+
+.gameButtons button {
+  width: 100px;
+  height: 40px;
+}
+

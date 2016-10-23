@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe</title>
+    
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <div class="container-fluid" ng-app="myApp" ng-controller="myCtrl">
+	<div id="gameScore">
+		<div class="col-sm-6">
+      <p>You: <span>{{ humanScore }}</span></p>
+		</div>
+		<div class="col-sm-6">
+      <p>Computer: <span>{{ aiScore }}</span></p>
+		</div>	
+	</div>
+
+	<div class="gameFrame" id="gameWelcome" ng-show="showWelcome">
+		<div class="gameHead">
+			<p class="gameTitle">Welcome to Tic Tak Toe!</p>
+			<p class="gameContent">Please choose your side.</p>
+		</div>
+
+		<div class="gameButtons"> 
+			<div class="col-sm-6">
+				<button type="button" class="btn btn-info btn-md" ng-click="toInfo('O')">O</button>
+			</div>
+			<div class="col-sm-6">
+				<button type="button" class="btn btn-info btn-md" ng-click="toInfo('X')">X</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="gameFrame" id="gameInfo" ng-show="showInfo">
+		<div class="gameHead">
+			<p class="gameTitle">Start to play!</p>
+			<p class="gameContent">You choose {{ humanChoice }}, {{ newGame.turn }} goes first.</p>
+		</div>
+
+		<div class="gameButtons">
+			<div class="col-sm-6">
+				<button type="button" class="btn btn-info btn-md" ng-click="toWelcome()">Restart</button>
+			</div>
+			<div class="col-sm-6">
+				<button type="button" class="btn btn-info btn-md" ng-click="toRunning()">Start</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="gameRunning" ng-show="showRunning" class="gameFrame">
+		<table width="100%">
+			<tr>
+				<td ng-click="newGame.humanPlayer.play(0)">{{ newGame.board[0] }}</td>
+				<td ng-click="newGame.humanPlayer.play(1)">{{ newGame.board[1] }}</td>
+				<td ng-click="newGame.humanPlayer.play(2)">{{ newGame.board[2] }}</td>
+			</tr>
+
+			<tr>
+				<td ng-click="newGame.humanPlayer.play(3)">{{ newGame.board[3] }}</td>
+				<td ng-click="newGame.humanPlayer.play(4)">{{ newGame.board[4] }}</td>
+				<td ng-click="newGame.humanPlayer.play(5)">{{ newGame.board[5] }}</td>
+			</tr>
+
+			<tr>
+				<td ng-click="newGame.humanPlayer.play(6)">{{ newGame.board[6] }}</td>
+				<td ng-click="newGame.humanPlayer.play(7)">{{ newGame.board[7] }}</td>
+				<td ng-click="newGame.humanPlayer.play(8)">{{ newGame.board[8] }}</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="gameFrame" id="gameTerminate" ng-show="showTerminate">
+		<div class="gameHead">
+			<p class="gameTitle">{{ gameResult }}</p>
+		</div>
+
+		<div class="gameButtons">
+			<div class="col-sm-6">
+				<button type="button" class="btn btn-info btn-md" ng-click="toWelcome()">Restart</button>
+			</div>
+			<div class="col-sm-6">
+				<button type="button" class="btn btn-info btn-md" ng-click="toInfo(humanChoice)">Continue</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+<script src="js/index.js"></script>
+  </body>
+</html>
