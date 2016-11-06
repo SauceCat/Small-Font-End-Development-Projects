@@ -172,7 +172,7 @@ app.controller("myCtrl", function($scope){
 
 		// play function for the human player
 		this.randomPlay = function(_game) {
-			_game.board[Math.round(Math.random() * 8)] = _game.turn;
+			_game.board[Math.floor(Math.random() * 9)] = _game.turn;
 			_game.turn = _game.turn == "O" ? "X" : "O";
 			_game.aiMoves++;
 		}
@@ -200,7 +200,7 @@ app.controller("myCtrl", function($scope){
 		this.board = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
 
 		// who take the turn to move
-		this.turn = Math.random() > 0.5 ? "O" : "X";
+		this.turn = Math.random() >= 0.5 ? "O" : "X";
 
 		// the number of moves taken by AI
 		this.aiMoves = 0;
