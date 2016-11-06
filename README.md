@@ -27,3 +27,7 @@ Font end development projects from FreeCodeCamp.
 <br>
 #### Project Seven: [Tic Tac Toe](http://codepen.io/SauceCat/pen/NROJNg/)
 <img src="https://github.com/SauceCat/Small-Font-End-Development-Projects/blob/master/tic-tac-toe/show.png" width="50%"/>
+
+<br>
+#### Project Eight: [Simon Game](http://codepen.io/SauceCat/pen/XNWwVg)
+<img src="https://github.com/SauceCat/Small-Font-End-Development-Projects/blob/master/simonGame/simon.png" width="50%"/>
